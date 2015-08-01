@@ -1,0 +1,43 @@
+22:06:43 arprast log error :
+belajar.txt_input_same_txt_append
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at belajar.txt_input_same_txt_append.input(txt_input_same_txt_append.java:43)
+	at belajar.txt_input_same_txt_append.<init>(txt_input_same_txt_append.java:60)
+	at belajar.txt_input_same_txt_append.main(txt_input_same_txt_append.java:26)
+
+
+====================================
+22:12:02 arprast log error :
+belajar.txt_input_same_txt_append
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at belajar.beda.beda2(beda.java:26)
+	at belajar.beda.<init>(beda.java:16)
+	at belajar.txt_input_same_txt_append.input(txt_input_same_txt_append.java:37)
+	at belajar.txt_input_same_txt_append.<init>(txt_input_same_txt_append.java:52)
+	at belajar.txt_input_same_txt_append.main(txt_input_same_txt_append.java:26)
+
+
+====================================
+22:13:37 arprast log error :
+belajar.txt_input_same_txt_append
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at arprast.itpro.beda.beda2(beda.java:26)
+	at arprast.itpro.beda.<init>(beda.java:16)
+	at belajar.txt_input_same_txt_append.input(txt_input_same_txt_append.java:38)
+	at belajar.txt_input_same_txt_append.<init>(txt_input_same_txt_append.java:53)
+	at belajar.txt_input_same_txt_append.main(txt_input_same_txt_append.java:27)
+
+
+====================================

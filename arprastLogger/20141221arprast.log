@@ -1,0 +1,11 @@
+21:05:10 arprast log error :
+belajar.txt_input_same_txt_append
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at belajar.txt_input_same_txt_append.main(txt_input_same_txt_append.java:41)
+
+
+====================================

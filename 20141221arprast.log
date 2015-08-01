@@ -1,0 +1,55 @@
+20:30:36 arprast log error :
+belajar.txt_input_same_txt_append
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at belajar.txt_input_same_txt_append.main(txt_input_same_txt_append.java:41)
+
+
+====================================
+20:33:27 arprast log error :
+belajar.txt_input_same_txt_append
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at belajar.txt_input_same_txt_append.main(txt_input_same_txt_append.java:41)
+
+/media/arprast/ILMU/PROGRAMING/JAVA/belajar_java/NETBEANS/belajar/ARPRAST-MANAGEMENT-IT/arprastLogger/coba
+====================================
+20:38:39 arprast log error :
+belajar.txt_input_same_txt_append
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at belajar.txt_input_same_txt_append.main(txt_input_same_txt_append.java:41)
+
+/media/arprast/ILMU/PROGRAMING/JAVA/belajar_java/NETBEANS/belajar/ARPRAST-MANAGEMENT-IT/arprastLogger
+====================================
+20:39:14 arprast log error :
+belajar.txt_input_same_txt_append
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at belajar.txt_input_same_txt_append.main(txt_input_same_txt_append.java:41)
+
+/media/arprast/ILMU/PROGRAMING/JAVA/belajar_java/NETBEANS/belajar/ARPRAST-MANAGEMENT-IT/arprastLogger
+====================================
+20:39:32 arprast log error :
+belajar.txt_input_same_txt_append
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at belajar.txt_input_same_txt_append.main(txt_input_same_txt_append.java:41)
+
+/media/arprast/ILMU/PROGRAMING/JAVA/belajar_java/NETBEANS/belajar/ARPRAST-MANAGEMENT-IT/arprastLogger
+====================================

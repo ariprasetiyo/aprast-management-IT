@@ -1,0 +1,565 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package arprast.hrdpro;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.GridLayout;
+import java.awt.LayoutManager;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JDesktopPane;
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JPanel;
+import javax.swing.JPopupMenu;
+import javax.swing.SwingConstants;
+
+
+/**
+ *
+ * @author LANTAI3
+ */
+
+class VerticalMenuBar extends JMenuBar {
+  private static final LayoutManager grid = new GridLayout(0,1);
+  public VerticalMenuBar() {
+    setLayout(grid);
+  }
+}
+
+public class Utama extends javax.swing.JFrame {
+    
+
+
+    /**
+     * Creates new form Utama
+     */
+    JButton UtamaHrd, UtamaPengajian, UtamaLaporan;
+    JButton TombolKe1a, TombolKe1b,TombolKe1c, TombolKe1d;
+    private JDesktopPane desktop = new JDesktopPane();
+    boolean BukaTutup = false;
+    
+
+    public Utama() {
+
+
+    // Create and set up the content pane.
+
+    Container contentPane = this.getContentPane();
+    //contentPane.setBackground(Color.WHITE); // contrasting bg
+    
+    JPanel asa = new JPanel();
+    asa.add(createMenuBar());
+    contentPane.add(asa, BorderLayout.LINE_START);
+    // Display the window.
+    this.setSize(100, 100);
+    this.setVisible(true);
+
+    
+        initComponents();
+        TombolUtama();
+        TombolKe1();
+        Aksi();
+        
+        
+            //MenuLayoutDemo demo = new MenuLayoutDemo();
+    //Container contentPane = frame.getContentPane();
+   // contentPane.setBackground(Color.WHITE); // contrasting bg
+    
+    //JPanel asa = new JPanel();
+    //contentPane.add(asa, BorderLayout.LINE_START);
+    
+    }
+    private void showPopupMenu1(JButton invoker) {
+        /*
+         *  private void showPopupMenu1(JButton invoker) {
+            JPopupMenu popupMenu = new JPopupMenu();
+            popupMenu.setLayout(new GridLayout(4, 1));
+
+            popupMenu.add(new JButton("Apple"));
+            popupMenu.add(new JButton("Banana"));
+            popupMenu.add(new JButton("Carrot"));
+            popupMenu.add(new JButton("Orange"));
+
+            popupMenu.show(invoker, 0, invoker.getHeight());
+            * 
+            *   private void showPopupMenu2(JButton invoker) throws IOException {
+                JPopupMenu popupMenu = new JPopupMenu();
+                popupMenu.setLayout(new BorderLayout());
+
+                JTable table = new JTable(createTableModel());
+
+                popupMenu.add(new JScrollPane(table));
+                Dimension preferredSize = table.getPreferredSize();
+                preferredSize.width += 30;
+                preferredSize.height += 30;
+                table.setPreferredScrollableViewportSize(preferredSize);
+                popupMenu.show(invoker, 0, invoker.getHeight());
+            }
+        }
+         */
+    JPopupMenu popupMenu = new JPopupMenu();
+    popupMenu.setLayout(new BoxLayout(popupMenu, BoxLayout.LINE_AXIS));
+
+    popupMenu.add(new JButton("Apple"));
+    popupMenu.add(new JButton("Banana"));
+    popupMenu.add(new JButton("Carrot"));
+    popupMenu.add(new JButton("Orange"));
+
+    popupMenu.show(invoker, 0, invoker.getHeight());
+}
+    
+    public JMenuBar createMenuBar() {
+    JMenuBar menuBar = new JMenuBar();
+    /*
+     * Membuat Layout kebawah
+     */
+    menuBar.setLayout(new BoxLayout(menuBar, BoxLayout.PAGE_AXIS));
+    menuBar.add(createMenu("Menu 1"));
+    menuBar.add(createMenu("Menu 2"));
+    menuBar.add(createMenu("Menu 3"));
+
+    menuBar.setBorder(BorderFactory.createMatteBorder(0, 0, 0, 1, Color.BLACK));
+    return menuBar;
+  }
+
+  // used by createMenuBar
+  public JMenu createMenu(String title) {
+    JMenu m = new Utama.VerticalMenuBar(title);
+    /*
+     * Biar urut kebawah
+     */
+    m.setLayout(new BoxLayout(m, BoxLayout.PAGE_AXIS));
+    m.add("Menu item #1 in " + title);
+    m.add("Menu item #2 in " + title);
+    m.add("Menu item #3 in " + title);
+
+    JMenu submenu = new Utama.VerticalMenuBar("Submenu");
+    submenu.add("Submenu item #1");
+    submenu.add("Submenu item #2");
+    m.add(submenu);
+
+    return m;
+  }
+  class VerticalMenuBar extends JMenu {
+    VerticalMenuBar(String label) {
+        super(label);
+        JPopupMenu pm = getPopupMenu();
+        pm.setLayout(new BoxLayout(pm, BoxLayout.PAGE_AXIS));
+      }
+
+    }
+  
+   class HorizontalMenu extends JMenu {
+    HorizontalMenu(String label) {
+      super(label);
+      JPopupMenu pm = getPopupMenu();
+      pm.setLayout(new BoxLayout(pm, BoxLayout.LINE_AXIS));
+    }
+
+    public Dimension getMinimumSize() {
+      return getPreferredSize();
+    }
+
+    public Dimension getMaximumSize() {
+      return getPreferredSize();
+    }
+
+    public void setPopupMenuVisible(boolean b) {
+      boolean isVisible = isPopupMenuVisible();
+      if (b != isVisible) {
+        if ((b == true) && isShowing()) {
+          // Set location of popupMenu (pulldown or pullright).
+          // Perhaps this should be dictated by L&F.
+          int x = 0;
+          int y = 0;
+          Container parent = getParent();
+          if (parent instanceof JPopupMenu) {
+            x = 10;
+            y = getHeight();
+          } else {
+            x = getWidth();
+            y = 0;
+          }
+          getPopupMenu().show(this, x, y);
+        } else {
+          getPopupMenu().setVisible(false);
+        }
+      }
+    }
+  }
+    private void Aksi(){
+         
+        UtamaHrd.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent X) {
+                boolean[] Data = {true, true, true, true};
+                DisableButtonMain(Data);
+               showPopupMenu1(UtamaHrd);
+            }
+        });
+        
+        UtamaPengajian.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent X) {
+                boolean[] Data = {false, false, false, false};
+                DisableButtonMain(Data);
+            }
+        });
+        UtamaLaporan.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent X) {
+                boolean[] Data = {false, false, false, false};
+                DisableButtonMain(Data);
+            }
+        });
+    }
+    private void AksiSubMenu(){
+        TombolKe1a.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent X) {
+                boolean[] Data = {true, true, true, true};
+                DisableButtonMain(Data);
+            }
+        });
+    }
+    
+    private void DisableButtonMain(boolean[] x ){
+        /*
+         * Rancangan
+         */
+        TombolKe1a.setVisible(x[0]);
+        TombolKe1b.setVisible(x[0]);
+        TombolKe1c.setVisible(x[0]);
+        TombolKe1d.setVisible(x[0]);
+    }
+    
+    private void TombolUtama(){
+
+        /*
+         * Laporaan, BLaporanLabaRugi 
+         */
+       UtamaHrd = new Sistem.ClButtonTransparant("");
+       UtamaHrd.setHorizontalTextPosition(SwingConstants.CENTER);
+       UtamaHrd.setVerticalTextPosition(SwingConstants.BOTTOM);
+       UtamaHrd.setVerticalAlignment(SwingConstants.BOTTOM);
+       //x,y , px, ly
+       UtamaHrd.setBounds(10, 10, 100, 50);
+       UtamaHrd.setVisible(true);
+       UtamaHrd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/KecilloginKunci.png")));
+       ss.add(UtamaHrd);
+       
+       UtamaPengajian = new Sistem.ClButtonTransparant("");
+       UtamaPengajian.setHorizontalTextPosition(SwingConstants.CENTER);
+       UtamaPengajian.setVerticalTextPosition(SwingConstants.BOTTOM);
+       UtamaPengajian.setVerticalAlignment(SwingConstants.BOTTOM);
+       //x,y , px, ly
+       UtamaPengajian.setBounds(10, 60, 100, 50);
+       UtamaPengajian.setVisible(true);
+       UtamaPengajian.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/KecilloginKunci.png")));
+       
+       ss.add(UtamaPengajian);
+       
+       UtamaLaporan = new Sistem.ClButtonTransparant("");
+       UtamaLaporan.setHorizontalTextPosition(SwingConstants.CENTER);
+       UtamaLaporan.setVerticalTextPosition(SwingConstants.BOTTOM);
+       UtamaLaporan.setVerticalAlignment(SwingConstants.BOTTOM);
+       //x,y , px, ly
+       UtamaLaporan.setBounds(10, 110, 100, 50);
+       UtamaLaporan.setVisible(true);
+       UtamaLaporan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/KecilloginKunci.png")));
+       
+       ss.add(UtamaLaporan);
+    }
+    private void TombolKe1 (){
+       
+                        
+
+       TombolKe1a = new Sistem.ClButtonTransparant("");
+       TombolKe1a.setHorizontalTextPosition(SwingConstants.CENTER);
+       TombolKe1a.setVerticalTextPosition(SwingConstants.BOTTOM);
+       TombolKe1a.setVerticalAlignment(SwingConstants.BOTTOM);
+       //x,y , px, ly
+       TombolKe1a.setBounds(120, 10, 200, 30);
+       TombolKe1a.setVisible(false);
+       TombolKe1a.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/KecilloginKunci.png")));      
+
+       
+       TombolKe1b = new Sistem.ClButtonTransparant("");
+       TombolKe1b.setHorizontalTextPosition(SwingConstants.CENTER);
+       TombolKe1b.setVerticalTextPosition(SwingConstants.BOTTOM);
+       TombolKe1b.setVerticalAlignment(SwingConstants.BOTTOM);
+       //x,y , px, ly
+       TombolKe1b.setBounds(120, 40, 200, 30);
+       TombolKe1b.setVisible(false);
+       TombolKe1b.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/KecilloginKunci.png")));
+      
+       
+       TombolKe1c = new Sistem.ClButtonTransparant("");
+       TombolKe1c.setHorizontalTextPosition(SwingConstants.CENTER);
+       TombolKe1c.setVerticalTextPosition(SwingConstants.BOTTOM);
+       TombolKe1c.setVerticalAlignment(SwingConstants.BOTTOM);
+       //x,y , px, ly
+       TombolKe1c.setBounds(120, 70, 200, 30);
+       TombolKe1c.setVisible(false);
+       TombolKe1c.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/KecilloginKunci.png")));
+      
+       
+       
+       TombolKe1d = new Sistem.ClButtonTransparant("");
+       TombolKe1d.setHorizontalTextPosition(SwingConstants.CENTER);
+       TombolKe1d.setVerticalTextPosition(SwingConstants.BOTTOM);
+       TombolKe1d.setVerticalAlignment(SwingConstants.BOTTOM);
+       //x,y , px, ly
+       TombolKe1d.setBounds(120, 100, 200, 30);
+       TombolKe1d.setVisible(false);
+       TombolKe1d.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/KecilloginKunci.png")));
+       
+       ss.add(TombolKe1d);
+        
+        
+    }
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">
+    private void initComponents() {
+
+        jMenu1 = new javax.swing.JMenu();
+        jCheckBoxMenuItem1 = new javax.swing.JCheckBoxMenuItem();
+        jPopupMenu1 = new javax.swing.JPopupMenu();
+        jMenu2 = new javax.swing.JMenu();
+        jPopupMenu2 = new javax.swing.JPopupMenu();
+        jPopupMenu3 = new javax.swing.JPopupMenu();
+        jPopupMenu4 = new javax.swing.JPopupMenu();
+        jPopupMenu5 = new javax.swing.JPopupMenu();
+        jMenu3 = new javax.swing.JMenu();
+        popupMenu1 = new java.awt.PopupMenu();
+        menuBar1 = new java.awt.MenuBar();
+        menu1 = new java.awt.Menu();
+        menu2 = new java.awt.Menu();
+        menuBar2 = new java.awt.MenuBar();
+        menu3 = new java.awt.Menu();
+        menu4 = new java.awt.Menu();
+        jCheckBox1 = new javax.swing.JCheckBox();
+        menuBar3 = new java.awt.MenuBar();
+        menu5 = new java.awt.Menu();
+        menu6 = new java.awt.Menu();
+        menuBar4 = new java.awt.MenuBar();
+        menu7 = new java.awt.Menu();
+        menu8 = new java.awt.Menu();
+        menuBar5 = new java.awt.MenuBar();
+        menu9 = new java.awt.Menu();
+        menu10 = new java.awt.Menu();
+        menuBar6 = new java.awt.MenuBar();
+        menu11 = new java.awt.Menu();
+        menu12 = new java.awt.Menu();
+        menuBar7 = new java.awt.MenuBar();
+        menu13 = new java.awt.Menu();
+        menu14 = new java.awt.Menu();
+        sasas = new javax.swing.JTabbedPane();
+        sas = new javax.swing.JPanel();
+        ss = new javax.swing.JPanel();
+
+        jMenu1.setText("jMenu1");
+
+        jCheckBoxMenuItem1.setSelected(true);
+        jCheckBoxMenuItem1.setText("jCheckBoxMenuItem1");
+
+        jMenu2.setText("jMenu2");
+
+        jMenu3.setText("jMenu3");
+
+        popupMenu1.setLabel("popupMenu1");
+
+        menu1.setLabel("File");
+        menuBar1.add(menu1);
+
+        menu2.setLabel("Edit");
+        menuBar1.add(menu2);
+
+        menu3.setLabel("File");
+        menuBar2.add(menu3);
+
+        menu4.setLabel("Edit");
+        menuBar2.add(menu4);
+
+        jCheckBox1.setText("jCheckBox1");
+
+        menu5.setLabel("File");
+        menuBar3.add(menu5);
+
+        menu6.setLabel("Edit");
+        menuBar3.add(menu6);
+
+        menu7.setLabel("File");
+        menuBar4.add(menu7);
+
+        menu8.setLabel("Edit");
+        menuBar4.add(menu8);
+
+        menu9.setLabel("File");
+        menuBar5.add(menu9);
+
+        menu10.setLabel("Edit");
+        menuBar5.add(menu10);
+
+        menu11.setLabel("File");
+        menuBar6.add(menu11);
+
+        menu12.setLabel("Edit");
+        menuBar6.add(menu12);
+
+        menu13.setLabel("File");
+        menuBar7.add(menu13);
+
+        menu14.setLabel("Edit");
+        menuBar7.add(menu14);
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Hrd");
+
+        sas.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        javax.swing.GroupLayout sasLayout = new javax.swing.GroupLayout(sas);
+        sas.setLayout(sasLayout);
+        sasLayout.setHorizontalGroup(
+            sasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        sasLayout.setVerticalGroup(
+            sasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 38, Short.MAX_VALUE)
+        );
+
+        ss.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        javax.swing.GroupLayout ssLayout = new javax.swing.GroupLayout(ss);
+        ss.setLayout(ssLayout);
+        ssLayout.setHorizontalGroup(
+            ssLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 165, Short.MAX_VALUE)
+        );
+        ssLayout.setVerticalGroup(
+            ssLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 317, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(sas, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(ss, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(sasas, javax.swing.GroupLayout.PREFERRED_SIZE, 398, javax.swing.GroupLayout.PREFERRED_SIZE))))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(sas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(sasas, javax.swing.GroupLayout.DEFAULT_SIZE, 492, Short.MAX_VALUE)
+                    .addComponent(ss, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+        );
+
+        java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
+        setBounds((screenSize.width-902)/2, (screenSize.height-567)/2, 902, 567);
+    }// </editor-fold>
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+         try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    javax.swing.UIManager.put("nimbusBase", new Color(255, 200, 255));
+                    
+                    /*
+                     * Tombol
+                     * 40, 200, 255
+                     * 200, 200, 255 => abu2
+                     */
+                    javax.swing.UIManager.put("nimbusBlueGrey", new Color(40, 230, 255));
+                    javax.swing.UIManager.put("control", new Color(200, 200, 255));
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(Utama.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(Utama.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(Utama.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(Utama.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                
+                new Utama().setVisible(true);
+            }
+        });
+    }
+    // Variables declaration - do not modify
+    private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem1;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JPopupMenu jPopupMenu1;
+    private javax.swing.JPopupMenu jPopupMenu2;
+    private javax.swing.JPopupMenu jPopupMenu3;
+    private javax.swing.JPopupMenu jPopupMenu4;
+    private javax.swing.JPopupMenu jPopupMenu5;
+    private java.awt.Menu menu1;
+    private java.awt.Menu menu10;
+    private java.awt.Menu menu11;
+    private java.awt.Menu menu12;
+    private java.awt.Menu menu13;
+    private java.awt.Menu menu14;
+    private java.awt.Menu menu2;
+    private java.awt.Menu menu3;
+    private java.awt.Menu menu4;
+    private java.awt.Menu menu5;
+    private java.awt.Menu menu6;
+    private java.awt.Menu menu7;
+    private java.awt.Menu menu8;
+    private java.awt.Menu menu9;
+    private java.awt.MenuBar menuBar1;
+    private java.awt.MenuBar menuBar2;
+    private java.awt.MenuBar menuBar3;
+    private java.awt.MenuBar menuBar4;
+    private java.awt.MenuBar menuBar5;
+    private java.awt.MenuBar menuBar6;
+    private java.awt.MenuBar menuBar7;
+    private java.awt.PopupMenu popupMenu1;
+    private javax.swing.JPanel sas;
+    private javax.swing.JTabbedPane sasas;
+    private javax.swing.JPanel ss;
+    // End of variables declaration
+}

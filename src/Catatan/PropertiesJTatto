@@ -1,0 +1,151 @@
+licenseKey
+
+value: Your license key (obsolet) 
+
+logoString
+
+value: The string you want to be shown in the lower left corner of popup menus. 
+
+windowDecoration
+
+value: on if you want decorated windows. 
+
+macStyleWindowDecoration
+
+value: on if you want the titlebar in mac style layout. 
+
+macStyleScrollBar
+
+value: on if you want mac style scrollbars. 
+
+centerWindowTitle
+
+value: on if you want the title of windows to be centered. 
+
+linuxStyleScrollBar
+
+value: on if you want the scrollbars in linux style layout. 
+
+textAntiAliasing
+
+value: on if you want text to be anti aliased rendered on screen (for java 1.4 and greater). 
+
+textAntiAliasingMode
+
+value: default - rendering with system default 
+value: gray - rendering with gray pixels 
+value: hrgb, hgbr, vrgb, vbgr - rendering with subpixel interpolation (see RenderingHints in the jdk documentation) 
+
+backgroundPattern
+
+value: on if you want backgroundPattern to be painted else background is filled with backgroundColor. 
+
+menuOpaque
+
+value: on if you want opaque (non transparent) menus. 
+
+dynamicLayout
+
+value: on/off simulation of the Toolkit.setDynamicLayout() method if windowDecoration is on 
+
+toolbarDecorated
+
+value: on/off. If value is off graphite/smart lnf do not paint the separator lines on top/bottom of the toolbar 
+
+
+controlTextFont
+systemTextFont
+userTextFont
+menuTextFont
+windowTitleFont
+subTextFont
+
+value: fontfamily style pointsize. Sample: "Arial BOLD 12" 
+
+
+foregroundColor
+disabledForegroundColor
+backgroundColor
+backgroundColorLight
+backgroundColorDark
+alterBackgroundColor
+foregroundColor
+backgroundColorLight
+backgroundColorDark
+inputForegroundColor
+inputBackgroundColor
+selectionForegroundColor
+selectionBackgroundColor
+selectionBackgroundColorLight
+selectionBackgroundColorDark
+frameColor
+gridColor
+focusColor
+focusCellColor
+rolloverColor
+rolloverColorLight
+rolloverColorDark
+buttonForegroundColor
+buttonBackgroundColor
+buttonColorLight
+buttonColorDark
+controlForegroundColor
+controlBackgroundColor
+controlColorLight
+controlColorDark
+windowTitleForegroundColor
+windowTitleBackgroundColor
+windowTitleColorLight
+windowTitleColorDark
+windowBorderColor
+windowIconColor
+windowIconShadowColor
+windowIconRolloverColor
+windowInactiveTitleForegroundColor
+windowTitleBackgroundColor
+windowInactiveTitleColorLight
+windowInactiveTitleColorDark
+windowInactiveBorderColor
+menuForegroundColor
+menuBackgroundColor
+menuSelectionForegroundColor
+menuSelectionBackgroundColor
+menuSelectionBackgroundColorLight
+menuSelectionBackgroundColorDark
+menuColorLight
+menuColorDark
+toolbarForegroundColor
+toolbarBackgroundColor
+toolbarColorLight
+toolbarColorDark
+tabAreaBackgroundColor
+desktopColor
+tooltipForegroundColor
+tooltipBackgroundColor
+
+value: red green blue. Sample: "255 128 255"
+tooltipCastShadow
+
+value: on if you want a cast shadow instead of the default shadow.
+tooltipBorderSize
+tooltipShadowSize
+
+a value between 0 and 8
+textureSet
+
+Name of the build in texture sets. Possible values: 
+Default - The leather texures 
+Rock - The rock textures 
+Textile - The textile textures 
+Snow - The snow texures
+darkTexture
+
+value: on/off Flag indicating if window texture is a dark texture
+windowTexture
+backgroundTexture
+alterBackgroundTexture
+selectedTexture
+rolloverTexture
+pressedTexture
+disabledTexture
+menubarTexture

@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jTabbedPane1" min="-2" pref="568" max="-2" attributes="0"/>
+                  <Component id="jPanel9" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane3" max="32767" attributes="0"/>
+                  <Component id="jPanel10" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jPanel2" min="-2" pref="57" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jTabbedPane1" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" pref="492" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="294" max="-2" attributes="0"/>
+                  <Component id="LabelPeringantan" pref="230" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="575" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="jLabel11" alignment="1" max="32767" attributes="0"/>
+                      <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="JLabelNoFomulir" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                      <Component id="JLabelTanggal" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="StatusLabel" min="-2" pref="262" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="JLabelNoFomulir" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="JLabelTanggal" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="StatusLabel" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="LabelPeringantan" min="-2" pref="19" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="StatusLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="36" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="No Fomulir :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="JLabelNoFomulir">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tanggal"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="JLabelTanggal">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LabelPeringantan">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel9">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  <Component id="JButtonPelamarNew" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="JButtonPelamarSave" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="JButtonPelamarEdit" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="JButtonPelamarPrintForm" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="sas" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="JButtonPelamarPrintForm" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JButtonPelamarNew" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JButtonPelamarEdit" max="32767" attributes="0"/>
+                          <Component id="JButtonPelamarSave" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="sas" min="-2" pref="0" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="JButtonPelamarNew">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Gambar/New document.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="New"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="JButtonPelamarEdit">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Gambar/edit_icon2.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="JButtonPelamarPrintForm">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Gambar/print_icon2.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Print Form"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="JButtonPelamarSave">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Gambar/save_icon2.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Save"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="sas">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Gambar/print_icon2.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Print Pelamar"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel10">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="JTextFieldSearch" min="-2" pref="171" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" pref="42" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jComboBoxStatusPelamar" min="-2" pref="109" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jButtonRefresh" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JTextFieldSearch" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBoxStatusPelamar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jButtonRefresh" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="JTextFieldSearch">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Search  :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Status :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBoxStatusPelamar">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value=""/>
+                <StringItem index="1" value="Diterima"/>
+                <StringItem index="2" value="Ditolak"/>
+                <StringItem index="3" value="Menunggu"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonRefresh">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Gambar/Refresh.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Refresh"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="JTextTabelPelamar">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="0" rowCount="4"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel8">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Data Pelamar">
+                <Property name="tabTitle" type="java.lang.String" value="Data Pelamar"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel26" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel27" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel28" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel29" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel19" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel20" alignment="0" min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="jLabel21" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel22" alignment="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel24" alignment="0" min="-2" pref="69" max="-2" attributes="0"/>
+                                      <Component id="jLabel25" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel30" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel32" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel31" min="-2" pref="179" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="JTextAlamatKodePos" alignment="0" min="-2" pref="138" max="-2" attributes="0"/>
+                                  <Component id="JTextAlamatTelpon" min="-2" pref="138" max="-2" attributes="0"/>
+                                  <Component id="JTextAsalKodePos" alignment="0" min="-2" pref="138" max="-2" attributes="0"/>
+                                  <Component id="JTextEmail" alignment="1" min="-2" pref="138" max="-2" attributes="0"/>
+                                  <Component id="JComboStatucRumah" min="-2" pref="138" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="StatusDiterima" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="StatusDitolak" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="StatusMenunggu" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="JTextAsalTelpon1" pref="178" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jComboBoxStatusKelamin" min="-2" pref="44" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabel33" min="-2" pref="49" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="JTextKelahiran" alignment="0" min="-2" pref="134" max="-2" attributes="0"/>
+                                  <Component id="JTextAgama" alignment="0" min="-2" pref="134" max="-2" attributes="0"/>
+                                  <Component id="JTextKewarganegaraan" alignment="0" min="-2" pref="134" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="dateChooserComboPelamar" min="-2" pref="96" max="-2" attributes="0"/>
+                                  <Component id="jComboBoxStatusMenikah" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="JTextSIM" alignment="0" max="32767" attributes="0"/>
+                          <Component id="JTextKTP" alignment="0" max="32767" attributes="0"/>
+                          <Component id="JTextNama" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                      <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                      <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                              <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                              <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                              <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Component id="JTextNama" min="-2" pref="21" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="dateChooserComboPelamar" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JTextKelahiran" alignment="1" min="-2" pref="21" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jComboBoxStatusMenikah" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jComboBoxStatusKelamin" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                      <Component id="JTextAgama" min="-2" pref="21" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                      <Component id="JTextKewarganegaraan" min="-2" pref="21" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="JTextKTP" min="-2" pref="21" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="JTextSIM" min="-2" pref="21" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="45" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="JTextAlamatKodePos" min="-2" pref="21" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="JTextAlamatTelpon" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                                  <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JTextAsalTelpon1" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="JTextEmail" min="-2" pref="21" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                      <Component id="JComboStatucRumah" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                      <Component id="JTextAsalKodePos" min="-2" pref="21" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="StatusDiterima" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="StatusDitolak" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                      <Component id="StatusMenunggu" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="JTextNama">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTextKelahiran">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTextKTP">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="JTextAreaAlamat">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JTextField" name="JTextAlamatTelpon">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTextAgama">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTextAlamatKodePos">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="dragEnabled" type="boolean" value="true"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTextEmail">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTextAsalKodePos">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="datechooser.beans.DateChooserCombo" name="dateChooserComboPelamar">
+              <Properties>
+                <Property name="dch_combo_border" type="javax.swing.border.Border" editor="datechooser.beans.editor.border.SimpleBorderEditor">
+                  <SerializedValue value="-84,-19,0,5,115,114,0,30,106,97,118,97,120,46,115,119,105,110,103,46,98,111,114,100,101,114,46,66,101,118,101,108,66,111,114,100,101,114,-112,6,-40,25,74,-84,102,-97,2,0,5,73,0,9,98,101,118,101,108,84,121,112,101,76,0,14,104,105,103,104,108,105,103,104,116,73,110,110,101,114,116,0,16,76,106,97,118,97,47,97,119,116,47,67,111,108,111,114,59,76,0,14,104,105,103,104,108,105,103,104,116,79,117,116,101,114,113,0,126,0,1,76,0,11,115,104,97,100,111,119,73,110,110,101,114,113,0,126,0,1,76,0,11,115,104,97,100,111,119,79,117,116,101,114,113,0,126,0,1,120,114,0,33,106,97,118,97,120,46,115,119,105,110,103,46,98,111,114,100,101,114,46,65,98,115,116,114,97,99,116,66,111,114,100,101,114,-99,92,-94,-101,106,-10,-127,51,2,0,0,120,112,0,0,0,0,112,112,112,112"/>
+                </Property>
+                <Property name="dch_weekDayStyle" type="datechooser.view.WeekDaysStyle" editor="datechooser.beans.editor.WeekDaysStyleEditor">
+                  <SerializedValue value="-84,-19,0,5,126,114,0,30,100,97,116,101,99,104,111,111,115,101,114,46,118,105,101,119,46,87,101,101,107,68,97,121,115,83,116,121,108,101,0,0,0,0,0,0,0,0,18,0,0,120,114,0,14,106,97,118,97,46,108,97,110,103,46,69,110,117,109,0,0,0,0,0,0,0,0,18,0,0,120,112,116,0,5,83,72,79,82,84"/>
+                </Property>
+                <Property name="dch_defaultDates" type="datechooser.model.multiple.PeriodSet" editor="datechooser.beans.editor.dates.PeriodsEditor">
+                  <SerializedValue value="-84,-19,0,5,115,114,0,36,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,83,101,116,-104,-44,-96,42,-91,51,-90,42,2,0,3,76,0,4,100,97,116,97,116,0,22,76,106,97,118,97,47,117,116,105,108,47,76,105,110,107,101,100,76,105,115,116,59,76,0,9,108,97,115,116,65,100,100,101,100,116,0,35,76,100,97,116,101,99,104,111,111,115,101,114,47,109,111,100,101,108,47,109,117,108,116,105,112,108,101,47,80,101,114,105,111,100,59,76,0,10,112,101,114,105,111,100,67,97,115,104,113,0,126,0,2,120,112,115,114,0,20,106,97,118,97,46,117,116,105,108,46,76,105,110,107,101,100,76,105,115,116,12,41,83,93,74,96,-120,34,3,0,0,120,112,119,4,0,0,0,1,115,114,0,33,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,29,77,-123,76,95,4,43,-93,2,0,2,76,0,7,101,110,100,68,97,116,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,67,97,108,101,110,100,97,114,59,76,0,9,115,116,97,114,116,68,97,116,101,113,0,126,0,7,120,112,115,114,0,27,106,97,118,97,46,117,116,105,108,46,71,114,101,103,111,114,105,97,110,67,97,108,101,110,100,97,114,-113,61,-41,-42,-27,-80,-48,-63,2,0,1,74,0,16,103,114,101,103,111,114,105,97,110,67,117,116,111,118,101,114,120,114,0,18,106,97,118,97,46,117,116,105,108,46,67,97,108,101,110,100,97,114,-26,-22,77,30,-56,-36,91,-114,3,0,11,90,0,12,97,114,101,70,105,101,108,100,115,83,101,116,73,0,14,102,105,114,115,116,68,97,121,79,102,87,101,101,107,90,0,9,105,115,84,105,109,101,83,101,116,90,0,7,108,101,110,105,101,110,116,73,0,22,109,105,110,105,109,97,108,68,97,121,115,73,110,70,105,114,115,116,87,101,101,107,73,0,9,110,101,120,116,83,116,97,109,112,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,74,0,4,116,105,109,101,91,0,6,102,105,101,108,100,115,116,0,2,91,73,91,0,5,105,115,83,101,116,116,0,2,91,90,76,0,4,122,111,110,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,84,105,109,101,90,111,110,101,59,120,112,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,68,-101,-65,2,-31,117,114,0,2,91,73,77,-70,96,38,118,-22,-78,-91,2,0,0,120,112,0,0,0,17,0,0,0,1,0,0,7,-34,0,0,0,2,0,0,0,10,0,0,0,2,0,0,0,7,0,0,0,66,0,0,0,6,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,15,0,0,0,53,0,0,0,10,0,0,1,-15,1,-128,-123,-128,0,0,0,0,117,114,0,2,91,90,87,-113,32,57,20,-72,93,-30,2,0,0,120,112,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,114,0,24,106,97,118,97,46,117,116,105,108,46,83,105,109,112,108,101,84,105,109,101,90,111,110,101,-6,103,93,96,-47,94,-11,-90,3,0,18,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,6,101,110,100,68,97,121,73,0,12,101,110,100,68,97,121,79,102,87,101,101,107,73,0,7,101,110,100,77,111,100,101,73,0,8,101,110,100,77,111,110,116,104,73,0,7,101,110,100,84,105,109,101,73,0,11,101,110,100,84,105,109,101,77,111,100,101,73,0,9,114,97,119,79,102,102,115,101,116,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,73,0,8,115,116,97,114,116,68,97,121,73,0,14,115,116,97,114,116,68,97,121,79,102,87,101,101,107,73,0,9,115,116,97,114,116,77,111,100,101,73,0,10,115,116,97,114,116,77,111,110,116,104,73,0,9,115,116,97,114,116,84,105,109,101,73,0,13,115,116,97,114,116,84,105,109,101,77,111,100,101,73,0,9,115,116,97,114,116,89,101,97,114,90,0,11,117,115,101,68,97,121,108,105,103,104,116,91,0,11,109,111,110,116,104,76,101,110,103,116,104,116,0,2,91,66,120,114,0,18,106,97,118,97,46,117,116,105,108,46,84,105,109,101,90,111,110,101,49,-77,-23,-11,119,68,-84,-95,2,0,1,76,0,2,73,68,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,116,0,12,65,115,105,97,47,66,97,110,103,107,111,107,0,54,-18,-128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-128,-123,-128,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,117,114,0,2,91,66,-84,-13,23,-8,6,8,84,-32,2,0,0,120,112,0,0,0,12,31,28,31,30,31,30,31,31,30,31,30,31,119,10,0,0,0,6,0,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,0,0,0,0,0,0,0,0,120,115,114,0,26,115,117,110,46,117,116,105,108,46,99,97,108,101,110,100,97,114,46,90,111,110,101,73,110,102,111,36,-47,-45,-50,0,29,113,-101,2,0,8,73,0,8,99,104,101,99,107,115,117,109,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,9,114,97,119,79,102,102,115,101,116,73,0,13,114,97,119,79,102,102,115,101,116,68,105,102,102,90,0,19,119,105,108,108,71,77,84,79,102,102,115,101,116,67,104,97,110,103,101,91,0,7,111,102,102,115,101,116,115,113,0,126,0,11,91,0,20,115,105,109,112,108,101,84,105,109,101,90,111,110,101,80,97,114,97,109,115,113,0,126,0,11,91,0,11,116,114,97,110,115,105,116,105,111,110,115,116,0,2,91,74,120,113,0,126,0,21,113,0,126,0,24,18,74,101,86,0,0,0,0,1,-128,-123,-128,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,1,-128,-123,-128,1,112,26,96,112,117,114,0,2,91,74,120,32,4,-75,18,-79,117,-109,2,0,0,120,112,0,0,0,3,-1,-33,-38,-32,29,-64,0,1,-1,-23,38,-6,85,90,0,0,0,30,-60,-106,-95,-88,0,0,120,-1,-1,-12,-30,-7,100,-84,0,115,113,0,126,0,9,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,68,-101,-65,2,-31,117,113,0,126,0,15,0,0,0,17,0,0,0,1,0,0,7,-34,0,0,0,2,0,0,0,10,0,0,0,2,0,0,0,7,0,0,0,66,0,0,0,6,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,15,0,0,0,53,0,0,0,10,0,0,1,-15,1,-128,-123,-128,0,0,0,0,117,113,0,126,0,17,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,113,0,126,0,19,113,0,126,0,24,0,54,-18,-128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-128,-123,-128,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,0,126,0,26,119,10,0,0,0,6,0,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,0,0,0,0,0,0,0,0,120,115,113,0,126,0,28,113,0,126,0,24,18,74,101,86,0,0,0,0,1,-128,-123,-128,0,0,0,0,0,113,0,126,0,31,112,113,0,126,0,33,120,-1,-1,-12,-30,-7,100,-84,0,120,112,112"/>
+                </Property>
+                <Property name="dch_enabled" type="boolean" value="false"/>
+                <Property name="dch_locale" type="java.util.Locale" editor="datechooser.beans.editor.locale.LocaleEditor">
+                  <SerializedValue value="-84,-19,0,5,115,114,0,16,106,97,118,97,46,117,116,105,108,46,76,111,99,97,108,101,126,-8,17,96,-100,48,-7,-20,3,0,6,73,0,8,104,97,115,104,99,111,100,101,76,0,7,99,111,117,110,116,114,121,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,10,101,120,116,101,110,115,105,111,110,115,113,0,126,0,1,76,0,8,108,97,110,103,117,97,103,101,113,0,126,0,1,76,0,6,115,99,114,105,112,116,113,0,126,0,1,76,0,7,118,97,114,105,97,110,116,113,0,126,0,1,120,112,-1,-1,-1,-1,116,0,2,73,68,116,0,0,116,0,2,105,110,113,0,126,0,4,113,0,126,0,4,120"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Status"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="StatusDiterima">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Diterima"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="StatusDitolak">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ditolak"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="StatusMenunggu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Menunggu"/>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="No Telpon"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kode Pos"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel22">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Status Tempat Tinggal *"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBoxStatusKelamin">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="L"/>
+                    <StringItem index="1" value="P"/>
+                  </StringArray>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBoxStatusMenikah">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="Menikah"/>
+                    <StringItem index="1" value="Belum Menikah"/>
+                  </StringArray>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTextKewarganegaraan">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hp"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTextSIM">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="JTextAsalTelpon1">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="JComboStatucRumah">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Sewa"/>
+                    <StringItem index="1" value="Kontrak"/>
+                    <StringItem index="2" value="Ikut Orang Tua"/>
+                    <StringItem index="3" value="Ikut Wali"/>
+                  </StringArray>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hobby"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nama Lengkap"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tempat Tanggal Lahir"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel27">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Jenis Kelamin"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel28">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agama"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel29">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kewarganegaraan"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel30">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Alamat Lengkap"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel31">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nomor KTP ( DKI / Daerah ) *"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel32">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nomor SIM ( A / B / C ) *"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel33">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Status *"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Riwayat Pendidikan Pelamar">
+                <Property name="tabTitle" type="java.lang.String" value="Riwayat Pendidikan Pelamar"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel13" min="-2" pref="358" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPane4" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="112" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" pref="66" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane4" min="-2" pref="112" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="JTablePendidikan">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                        <BevelBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="0" rowCount="4"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Data Pendidikan :"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jLabel12" max="32767" attributes="0"/>
+                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="JTextAlamatKodePos3" min="-2" pref="83" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="JTextAlamatKodePos2" min="-2" pref="156" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="dateChooserComboPelamar2" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" min="-2" pref="8" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                  <Component id="dateChooserComboPelamar1" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jButtonPendidikan" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="JTextAlamatKodePos1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="JTextAlamatKodePos3" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                                      <Component id="jLabel12" min="-2" pref="21" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="JTextAlamatKodePos1" min="-2" pref="21" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="JTextAlamatKodePos2" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="dateChooserComboPelamar1" alignment="1" min="-2" pref="22" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="dateChooserComboPelamar2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jButtonPendidikan" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel10" alignment="1" min="-2" pref="20" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JTextField" name="JTextAlamatKodePos1">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="datechooser.beans.DateChooserCombo" name="dateChooserComboPelamar1">
+                  <Properties>
+                    <Property name="dch_combo_border" type="javax.swing.border.Border" editor="datechooser.beans.editor.border.SimpleBorderEditor">
+                      <SerializedValue value="-84,-19,0,5,115,114,0,30,106,97,118,97,120,46,115,119,105,110,103,46,98,111,114,100,101,114,46,66,101,118,101,108,66,111,114,100,101,114,-112,6,-40,25,74,-84,102,-97,2,0,5,73,0,9,98,101,118,101,108,84,121,112,101,76,0,14,104,105,103,104,108,105,103,104,116,73,110,110,101,114,116,0,16,76,106,97,118,97,47,97,119,116,47,67,111,108,111,114,59,76,0,14,104,105,103,104,108,105,103,104,116,79,117,116,101,114,113,0,126,0,1,76,0,11,115,104,97,100,111,119,73,110,110,101,114,113,0,126,0,1,76,0,11,115,104,97,100,111,119,79,117,116,101,114,113,0,126,0,1,120,114,0,33,106,97,118,97,120,46,115,119,105,110,103,46,98,111,114,100,101,114,46,65,98,115,116,114,97,99,116,66,111,114,100,101,114,-99,92,-94,-101,106,-10,-127,51,2,0,0,120,112,0,0,0,0,112,112,112,112"/>
+                    </Property>
+                    <Property name="dch_weekDayStyle" type="datechooser.view.WeekDaysStyle" editor="datechooser.beans.editor.WeekDaysStyleEditor">
+                      <SerializedValue value="-84,-19,0,5,126,114,0,30,100,97,116,101,99,104,111,111,115,101,114,46,118,105,101,119,46,87,101,101,107,68,97,121,115,83,116,121,108,101,0,0,0,0,0,0,0,0,18,0,0,120,114,0,14,106,97,118,97,46,108,97,110,103,46,69,110,117,109,0,0,0,0,0,0,0,0,18,0,0,120,112,116,0,5,83,72,79,82,84"/>
+                    </Property>
+                    <Property name="dch_defaultDates" type="datechooser.model.multiple.PeriodSet" editor="datechooser.beans.editor.dates.PeriodsEditor">
+                      <SerializedValue value="-84,-19,0,5,115,114,0,36,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,83,101,116,-104,-44,-96,42,-91,51,-90,42,2,0,3,76,0,4,100,97,116,97,116,0,22,76,106,97,118,97,47,117,116,105,108,47,76,105,110,107,101,100,76,105,115,116,59,76,0,9,108,97,115,116,65,100,100,101,100,116,0,35,76,100,97,116,101,99,104,111,111,115,101,114,47,109,111,100,101,108,47,109,117,108,116,105,112,108,101,47,80,101,114,105,111,100,59,76,0,10,112,101,114,105,111,100,67,97,115,104,113,0,126,0,2,120,112,115,114,0,20,106,97,118,97,46,117,116,105,108,46,76,105,110,107,101,100,76,105,115,116,12,41,83,93,74,96,-120,34,3,0,0,120,112,119,4,0,0,0,1,115,114,0,33,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,29,77,-123,76,95,4,43,-93,2,0,2,76,0,7,101,110,100,68,97,116,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,67,97,108,101,110,100,97,114,59,76,0,9,115,116,97,114,116,68,97,116,101,113,0,126,0,7,120,112,115,114,0,27,106,97,118,97,46,117,116,105,108,46,71,114,101,103,111,114,105,97,110,67,97,108,101,110,100,97,114,-113,61,-41,-42,-27,-80,-48,-63,2,0,1,74,0,16,103,114,101,103,111,114,105,97,110,67,117,116,111,118,101,114,120,114,0,18,106,97,118,97,46,117,116,105,108,46,67,97,108,101,110,100,97,114,-26,-22,77,30,-56,-36,91,-114,3,0,11,90,0,12,97,114,101,70,105,101,108,100,115,83,101,116,73,0,14,102,105,114,115,116,68,97,121,79,102,87,101,101,107,90,0,9,105,115,84,105,109,101,83,101,116,90,0,7,108,101,110,105,101,110,116,73,0,22,109,105,110,105,109,97,108,68,97,121,115,73,110,70,105,114,115,116,87,101,101,107,73,0,9,110,101,120,116,83,116,97,109,112,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,74,0,4,116,105,109,101,91,0,6,102,105,101,108,100,115,116,0,2,91,73,91,0,5,105,115,83,101,116,116,0,2,91,90,76,0,4,122,111,110,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,84,105,109,101,90,111,110,101,59,120,112,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,68,-101,-65,2,-31,117,114,0,2,91,73,77,-70,96,38,118,-22,-78,-91,2,0,0,120,112,0,0,0,17,0,0,0,1,0,0,7,-34,0,0,0,2,0,0,0,10,0,0,0,2,0,0,0,7,0,0,0,66,0,0,0,6,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,15,0,0,0,53,0,0,0,10,0,0,1,-15,1,-128,-123,-128,0,0,0,0,117,114,0,2,91,90,87,-113,32,57,20,-72,93,-30,2,0,0,120,112,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,114,0,24,106,97,118,97,46,117,116,105,108,46,83,105,109,112,108,101,84,105,109,101,90,111,110,101,-6,103,93,96,-47,94,-11,-90,3,0,18,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,6,101,110,100,68,97,121,73,0,12,101,110,100,68,97,121,79,102,87,101,101,107,73,0,7,101,110,100,77,111,100,101,73,0,8,101,110,100,77,111,110,116,104,73,0,7,101,110,100,84,105,109,101,73,0,11,101,110,100,84,105,109,101,77,111,100,101,73,0,9,114,97,119,79,102,102,115,101,116,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,73,0,8,115,116,97,114,116,68,97,121,73,0,14,115,116,97,114,116,68,97,121,79,102,87,101,101,107,73,0,9,115,116,97,114,116,77,111,100,101,73,0,10,115,116,97,114,116,77,111,110,116,104,73,0,9,115,116,97,114,116,84,105,109,101,73,0,13,115,116,97,114,116,84,105,109,101,77,111,100,101,73,0,9,115,116,97,114,116,89,101,97,114,90,0,11,117,115,101,68,97,121,108,105,103,104,116,91,0,11,109,111,110,116,104,76,101,110,103,116,104,116,0,2,91,66,120,114,0,18,106,97,118,97,46,117,116,105,108,46,84,105,109,101,90,111,110,101,49,-77,-23,-11,119,68,-84,-95,2,0,1,76,0,2,73,68,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,116,0,12,65,115,105,97,47,66,97,110,103,107,111,107,0,54,-18,-128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-128,-123,-128,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,117,114,0,2,91,66,-84,-13,23,-8,6,8,84,-32,2,0,0,120,112,0,0,0,12,31,28,31,30,31,30,31,31,30,31,30,31,119,10,0,0,0,6,0,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,0,0,0,0,0,0,0,0,120,115,114,0,26,115,117,110,46,117,116,105,108,46,99,97,108,101,110,100,97,114,46,90,111,110,101,73,110,102,111,36,-47,-45,-50,0,29,113,-101,2,0,8,73,0,8,99,104,101,99,107,115,117,109,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,9,114,97,119,79,102,102,115,101,116,73,0,13,114,97,119,79,102,102,115,101,116,68,105,102,102,90,0,19,119,105,108,108,71,77,84,79,102,102,115,101,116,67,104,97,110,103,101,91,0,7,111,102,102,115,101,116,115,113,0,126,0,11,91,0,20,115,105,109,112,108,101,84,105,109,101,90,111,110,101,80,97,114,97,109,115,113,0,126,0,11,91,0,11,116,114,97,110,115,105,116,105,111,110,115,116,0,2,91,74,120,113,0,126,0,21,113,0,126,0,24,18,74,101,86,0,0,0,0,1,-128,-123,-128,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,1,-128,-123,-128,1,112,26,96,112,117,114,0,2,91,74,120,32,4,-75,18,-79,117,-109,2,0,0,120,112,0,0,0,3,-1,-33,-38,-32,29,-64,0,1,-1,-23,38,-6,85,90,0,0,0,30,-60,-106,-95,-88,0,0,120,-1,-1,-12,-30,-7,100,-84,0,115,113,0,126,0,9,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,68,-101,-65,2,-31,117,113,0,126,0,15,0,0,0,17,0,0,0,1,0,0,7,-34,0,0,0,2,0,0,0,10,0,0,0,2,0,0,0,7,0,0,0,66,0,0,0,6,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,15,0,0,0,53,0,0,0,10,0,0,1,-15,1,-128,-123,-128,0,0,0,0,117,113,0,126,0,17,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,113,0,126,0,19,113,0,126,0,24,0,54,-18,-128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-128,-123,-128,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,0,126,0,26,119,10,0,0,0,6,0,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,0,0,0,0,0,0,0,0,120,115,113,0,126,0,28,113,0,126,0,24,18,74,101,86,0,0,0,0,1,-128,-123,-128,0,0,0,0,0,113,0,126,0,31,112,113,0,126,0,33,120,-1,-1,-12,-30,-7,100,-84,0,120,112,112"/>
+                    </Property>
+                    <Property name="dch_enabled" type="boolean" value="false"/>
+                    <Property name="dch_locale" type="java.util.Locale" editor="datechooser.beans.editor.locale.LocaleEditor">
+                      <SerializedValue value="-84,-19,0,5,115,114,0,16,106,97,118,97,46,117,116,105,108,46,76,111,99,97,108,101,126,-8,17,96,-100,48,-7,-20,3,0,6,73,0,8,104,97,115,104,99,111,100,101,76,0,7,99,111,117,110,116,114,121,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,10,101,120,116,101,110,115,105,111,110,115,113,0,126,0,1,76,0,8,108,97,110,103,117,97,103,101,113,0,126,0,1,76,0,6,115,99,114,105,112,116,113,0,126,0,1,76,0,7,118,97,114,105,97,110,116,113,0,126,0,1,120,112,-1,-1,-1,-1,116,0,2,73,68,116,0,0,116,0,2,105,110,113,0,126,0,4,113,0,126,0,4,120"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="0"/>
+                    <Property name="text" type="java.lang.String" value="-"/>
+                  </Properties>
+                </Component>
+                <Component class="datechooser.beans.DateChooserCombo" name="dateChooserComboPelamar2">
+                  <Properties>
+                    <Property name="dch_combo_border" type="javax.swing.border.Border" editor="datechooser.beans.editor.border.SimpleBorderEditor">
+                      <SerializedValue value="-84,-19,0,5,115,114,0,30,106,97,118,97,120,46,115,119,105,110,103,46,98,111,114,100,101,114,46,66,101,118,101,108,66,111,114,100,101,114,-112,6,-40,25,74,-84,102,-97,2,0,5,73,0,9,98,101,118,101,108,84,121,112,101,76,0,14,104,105,103,104,108,105,103,104,116,73,110,110,101,114,116,0,16,76,106,97,118,97,47,97,119,116,47,67,111,108,111,114,59,76,0,14,104,105,103,104,108,105,103,104,116,79,117,116,101,114,113,0,126,0,1,76,0,11,115,104,97,100,111,119,73,110,110,101,114,113,0,126,0,1,76,0,11,115,104,97,100,111,119,79,117,116,101,114,113,0,126,0,1,120,114,0,33,106,97,118,97,120,46,115,119,105,110,103,46,98,111,114,100,101,114,46,65,98,115,116,114,97,99,116,66,111,114,100,101,114,-99,92,-94,-101,106,-10,-127,51,2,0,0,120,112,0,0,0,0,112,112,112,112"/>
+                    </Property>
+                    <Property name="dch_weekDayStyle" type="datechooser.view.WeekDaysStyle" editor="datechooser.beans.editor.WeekDaysStyleEditor">
+                      <SerializedValue value="-84,-19,0,5,126,114,0,30,100,97,116,101,99,104,111,111,115,101,114,46,118,105,101,119,46,87,101,101,107,68,97,121,115,83,116,121,108,101,0,0,0,0,0,0,0,0,18,0,0,120,114,0,14,106,97,118,97,46,108,97,110,103,46,69,110,117,109,0,0,0,0,0,0,0,0,18,0,0,120,112,116,0,5,83,72,79,82,84"/>
+                    </Property>
+                    <Property name="dch_defaultDates" type="datechooser.model.multiple.PeriodSet" editor="datechooser.beans.editor.dates.PeriodsEditor">
+                      <SerializedValue value="-84,-19,0,5,115,114,0,36,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,83,101,116,-104,-44,-96,42,-91,51,-90,42,2,0,3,76,0,4,100,97,116,97,116,0,22,76,106,97,118,97,47,117,116,105,108,47,76,105,110,107,101,100,76,105,115,116,59,76,0,9,108,97,115,116,65,100,100,101,100,116,0,35,76,100,97,116,101,99,104,111,111,115,101,114,47,109,111,100,101,108,47,109,117,108,116,105,112,108,101,47,80,101,114,105,111,100,59,76,0,10,112,101,114,105,111,100,67,97,115,104,113,0,126,0,2,120,112,115,114,0,20,106,97,118,97,46,117,116,105,108,46,76,105,110,107,101,100,76,105,115,116,12,41,83,93,74,96,-120,34,3,0,0,120,112,119,4,0,0,0,1,115,114,0,33,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,29,77,-123,76,95,4,43,-93,2,0,2,76,0,7,101,110,100,68,97,116,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,67,97,108,101,110,100,97,114,59,76,0,9,115,116,97,114,116,68,97,116,101,113,0,126,0,7,120,112,115,114,0,27,106,97,118,97,46,117,116,105,108,46,71,114,101,103,111,114,105,97,110,67,97,108,101,110,100,97,114,-113,61,-41,-42,-27,-80,-48,-63,2,0,1,74,0,16,103,114,101,103,111,114,105,97,110,67,117,116,111,118,101,114,120,114,0,18,106,97,118,97,46,117,116,105,108,46,67,97,108,101,110,100,97,114,-26,-22,77,30,-56,-36,91,-114,3,0,11,90,0,12,97,114,101,70,105,101,108,100,115,83,101,116,73,0,14,102,105,114,115,116,68,97,121,79,102,87,101,101,107,90,0,9,105,115,84,105,109,101,83,101,116,90,0,7,108,101,110,105,101,110,116,73,0,22,109,105,110,105,109,97,108,68,97,121,115,73,110,70,105,114,115,116,87,101,101,107,73,0,9,110,101,120,116,83,116,97,109,112,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,74,0,4,116,105,109,101,91,0,6,102,105,101,108,100,115,116,0,2,91,73,91,0,5,105,115,83,101,116,116,0,2,91,90,76,0,4,122,111,110,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,84,105,109,101,90,111,110,101,59,120,112,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,68,-101,-65,2,-31,117,114,0,2,91,73,77,-70,96,38,118,-22,-78,-91,2,0,0,120,112,0,0,0,17,0,0,0,1,0,0,7,-34,0,0,0,2,0,0,0,10,0,0,0,2,0,0,0,7,0,0,0,66,0,0,0,6,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,15,0,0,0,53,0,0,0,10,0,0,1,-15,1,-128,-123,-128,0,0,0,0,117,114,0,2,91,90,87,-113,32,57,20,-72,93,-30,2,0,0,120,112,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,114,0,24,106,97,118,97,46,117,116,105,108,46,83,105,109,112,108,101,84,105,109,101,90,111,110,101,-6,103,93,96,-47,94,-11,-90,3,0,18,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,6,101,110,100,68,97,121,73,0,12,101,110,100,68,97,121,79,102,87,101,101,107,73,0,7,101,110,100,77,111,100,101,73,0,8,101,110,100,77,111,110,116,104,73,0,7,101,110,100,84,105,109,101,73,0,11,101,110,100,84,105,109,101,77,111,100,101,73,0,9,114,97,119,79,102,102,115,101,116,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,73,0,8,115,116,97,114,116,68,97,121,73,0,14,115,116,97,114,116,68,97,121,79,102,87,101,101,107,73,0,9,115,116,97,114,116,77,111,100,101,73,0,10,115,116,97,114,116,77,111,110,116,104,73,0,9,115,116,97,114,116,84,105,109,101,73,0,13,115,116,97,114,116,84,105,109,101,77,111,100,101,73,0,9,115,116,97,114,116,89,101,97,114,90,0,11,117,115,101,68,97,121,108,105,103,104,116,91,0,11,109,111,110,116,104,76,101,110,103,116,104,116,0,2,91,66,120,114,0,18,106,97,118,97,46,117,116,105,108,46,84,105,109,101,90,111,110,101,49,-77,-23,-11,119,68,-84,-95,2,0,1,76,0,2,73,68,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,116,0,12,65,115,105,97,47,66,97,110,103,107,111,107,0,54,-18,-128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-128,-123,-128,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,117,114,0,2,91,66,-84,-13,23,-8,6,8,84,-32,2,0,0,120,112,0,0,0,12,31,28,31,30,31,30,31,31,30,31,30,31,119,10,0,0,0,6,0,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,0,0,0,0,0,0,0,0,120,115,114,0,26,115,117,110,46,117,116,105,108,46,99,97,108,101,110,100,97,114,46,90,111,110,101,73,110,102,111,36,-47,-45,-50,0,29,113,-101,2,0,8,73,0,8,99,104,101,99,107,115,117,109,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,9,114,97,119,79,102,102,115,101,116,73,0,13,114,97,119,79,102,102,115,101,116,68,105,102,102,90,0,19,119,105,108,108,71,77,84,79,102,102,115,101,116,67,104,97,110,103,101,91,0,7,111,102,102,115,101,116,115,113,0,126,0,11,91,0,20,115,105,109,112,108,101,84,105,109,101,90,111,110,101,80,97,114,97,109,115,113,0,126,0,11,91,0,11,116,114,97,110,115,105,116,105,111,110,115,116,0,2,91,74,120,113,0,126,0,21,113,0,126,0,24,18,74,101,86,0,0,0,0,1,-128,-123,-128,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,1,-128,-123,-128,1,112,26,96,112,117,114,0,2,91,74,120,32,4,-75,18,-79,117,-109,2,0,0,120,112,0,0,0,3,-1,-33,-38,-32,29,-64,0,1,-1,-23,38,-6,85,90,0,0,0,30,-60,-106,-95,-88,0,0,120,-1,-1,-12,-30,-7,100,-84,0,115,113,0,126,0,9,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,68,-101,-65,2,-31,117,113,0,126,0,15,0,0,0,17,0,0,0,1,0,0,7,-34,0,0,0,2,0,0,0,10,0,0,0,2,0,0,0,7,0,0,0,66,0,0,0,6,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,15,0,0,0,53,0,0,0,10,0,0,1,-15,1,-128,-123,-128,0,0,0,0,117,113,0,126,0,17,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,113,0,126,0,19,113,0,126,0,24,0,54,-18,-128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-128,-123,-128,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,0,126,0,26,119,10,0,0,0,6,0,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,0,0,0,0,0,0,0,0,120,115,113,0,126,0,28,113,0,126,0,24,18,74,101,86,0,0,0,0,1,-128,-123,-128,0,0,0,0,0,113,0,126,0,31,112,113,0,126,0,33,120,-1,-1,-12,-30,-7,100,-84,0,120,112,112"/>
+                    </Property>
+                    <Property name="dch_enabled" type="boolean" value="false"/>
+                    <Property name="dch_locale" type="java.util.Locale" editor="datechooser.beans.editor.locale.LocaleEditor">
+                      <SerializedValue value="-84,-19,0,5,115,114,0,16,106,97,118,97,46,117,116,105,108,46,76,111,99,97,108,101,126,-8,17,96,-100,48,-7,-20,3,0,6,73,0,8,104,97,115,104,99,111,100,101,76,0,7,99,111,117,110,116,114,121,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,10,101,120,116,101,110,115,105,111,110,115,113,0,126,0,1,76,0,8,108,97,110,103,117,97,103,101,113,0,126,0,1,76,0,6,115,99,114,105,112,116,113,0,126,0,1,76,0,7,118,97,114,105,97,110,116,113,0,126,0,1,120,112,-1,-1,-1,-1,116,0,2,73,68,116,0,0,116,0,2,105,110,113,0,126,0,4,113,0,126,0,4,120"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="JTextAlamatKodePos2">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tahun"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nama Sekolah"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="JTextAlamatKodePos3">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel12">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tingkat"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Jurusan"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButtonPendidikan">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Gambar/add.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="add"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="JTableNonFormal">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="0" rowCount="4"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kursus / seminar ( berhubungan dengan pekerjaan )"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel14" max="32767" attributes="0"/>
+                              <Component id="jLabel15" pref="78" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="JTextAlamatKodePos5" min="-2" pref="143" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="dateChooserComboPelamar3" min="-2" pref="103" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="JButtonNonFormal" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="JTextAlamatKodePos4" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="JTextAlamatKodePos4" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                              <Component id="jLabel14" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel15" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                                      <Component id="JTextAlamatKodePos5" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                                      <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="dateChooserComboPelamar3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                  <Component id="JButtonNonFormal" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel14">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tema"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="JTextAlamatKodePos4">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel15">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Penyelengara"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="JTextAlamatKodePos5">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel16">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Waktu"/>
+                  </Properties>
+                </Component>
+                <Component class="datechooser.beans.DateChooserCombo" name="dateChooserComboPelamar3">
+                  <Properties>
+                    <Property name="dch_combo_border" type="javax.swing.border.Border" editor="datechooser.beans.editor.border.SimpleBorderEditor">
+                      <SerializedValue value="-84,-19,0,5,115,114,0,30,106,97,118,97,120,46,115,119,105,110,103,46,98,111,114,100,101,114,46,66,101,118,101,108,66,111,114,100,101,114,-112,6,-40,25,74,-84,102,-97,2,0,5,73,0,9,98,101,118,101,108,84,121,112,101,76,0,14,104,105,103,104,108,105,103,104,116,73,110,110,101,114,116,0,16,76,106,97,118,97,47,97,119,116,47,67,111,108,111,114,59,76,0,14,104,105,103,104,108,105,103,104,116,79,117,116,101,114,113,0,126,0,1,76,0,11,115,104,97,100,111,119,73,110,110,101,114,113,0,126,0,1,76,0,11,115,104,97,100,111,119,79,117,116,101,114,113,0,126,0,1,120,114,0,33,106,97,118,97,120,46,115,119,105,110,103,46,98,111,114,100,101,114,46,65,98,115,116,114,97,99,116,66,111,114,100,101,114,-99,92,-94,-101,106,-10,-127,51,2,0,0,120,112,0,0,0,0,112,112,112,112"/>
+                    </Property>
+                    <Property name="dch_weekDayStyle" type="datechooser.view.WeekDaysStyle" editor="datechooser.beans.editor.WeekDaysStyleEditor">
+                      <SerializedValue value="-84,-19,0,5,126,114,0,30,100,97,116,101,99,104,111,111,115,101,114,46,118,105,101,119,46,87,101,101,107,68,97,121,115,83,116,121,108,101,0,0,0,0,0,0,0,0,18,0,0,120,114,0,14,106,97,118,97,46,108,97,110,103,46,69,110,117,109,0,0,0,0,0,0,0,0,18,0,0,120,112,116,0,5,83,72,79,82,84"/>
+                    </Property>
+                    <Property name="dch_defaultDates" type="datechooser.model.multiple.PeriodSet" editor="datechooser.beans.editor.dates.PeriodsEditor">
+                      <SerializedValue value="-84,-19,0,5,115,114,0,36,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,83,101,116,-104,-44,-96,42,-91,51,-90,42,2,0,3,76,0,4,100,97,116,97,116,0,22,76,106,97,118,97,47,117,116,105,108,47,76,105,110,107,101,100,76,105,115,116,59,76,0,9,108,97,115,116,65,100,100,101,100,116,0,35,76,100,97,116,101,99,104,111,111,115,101,114,47,109,111,100,101,108,47,109,117,108,116,105,112,108,101,47,80,101,114,105,111,100,59,76,0,10,112,101,114,105,111,100,67,97,115,104,113,0,126,0,2,120,112,115,114,0,20,106,97,118,97,46,117,116,105,108,46,76,105,110,107,101,100,76,105,115,116,12,41,83,93,74,96,-120,34,3,0,0,120,112,119,4,0,0,0,1,115,114,0,33,100,97,116,101,99,104,111,111,115,101,114,46,109,111,100,101,108,46,109,117,108,116,105,112,108,101,46,80,101,114,105,111,100,29,77,-123,76,95,4,43,-93,2,0,2,76,0,7,101,110,100,68,97,116,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,67,97,108,101,110,100,97,114,59,76,0,9,115,116,97,114,116,68,97,116,101,113,0,126,0,7,120,112,115,114,0,27,106,97,118,97,46,117,116,105,108,46,71,114,101,103,111,114,105,97,110,67,97,108,101,110,100,97,114,-113,61,-41,-42,-27,-80,-48,-63,2,0,1,74,0,16,103,114,101,103,111,114,105,97,110,67,117,116,111,118,101,114,120,114,0,18,106,97,118,97,46,117,116,105,108,46,67,97,108,101,110,100,97,114,-26,-22,77,30,-56,-36,91,-114,3,0,11,90,0,12,97,114,101,70,105,101,108,100,115,83,101,116,73,0,14,102,105,114,115,116,68,97,121,79,102,87,101,101,107,90,0,9,105,115,84,105,109,101,83,101,116,90,0,7,108,101,110,105,101,110,116,73,0,22,109,105,110,105,109,97,108,68,97,121,115,73,110,70,105,114,115,116,87,101,101,107,73,0,9,110,101,120,116,83,116,97,109,112,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,74,0,4,116,105,109,101,91,0,6,102,105,101,108,100,115,116,0,2,91,73,91,0,5,105,115,83,101,116,116,0,2,91,90,76,0,4,122,111,110,101,116,0,20,76,106,97,118,97,47,117,116,105,108,47,84,105,109,101,90,111,110,101,59,120,112,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,68,-101,-65,2,-31,117,114,0,2,91,73,77,-70,96,38,118,-22,-78,-91,2,0,0,120,112,0,0,0,17,0,0,0,1,0,0,7,-34,0,0,0,2,0,0,0,10,0,0,0,2,0,0,0,7,0,0,0,66,0,0,0,6,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,15,0,0,0,53,0,0,0,10,0,0,1,-15,1,-128,-123,-128,0,0,0,0,117,114,0,2,91,90,87,-113,32,57,20,-72,93,-30,2,0,0,120,112,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,114,0,24,106,97,118,97,46,117,116,105,108,46,83,105,109,112,108,101,84,105,109,101,90,111,110,101,-6,103,93,96,-47,94,-11,-90,3,0,18,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,6,101,110,100,68,97,121,73,0,12,101,110,100,68,97,121,79,102,87,101,101,107,73,0,7,101,110,100,77,111,100,101,73,0,8,101,110,100,77,111,110,116,104,73,0,7,101,110,100,84,105,109,101,73,0,11,101,110,100,84,105,109,101,77,111,100,101,73,0,9,114,97,119,79,102,102,115,101,116,73,0,21,115,101,114,105,97,108,86,101,114,115,105,111,110,79,110,83,116,114,101,97,109,73,0,8,115,116,97,114,116,68,97,121,73,0,14,115,116,97,114,116,68,97,121,79,102,87,101,101,107,73,0,9,115,116,97,114,116,77,111,100,101,73,0,10,115,116,97,114,116,77,111,110,116,104,73,0,9,115,116,97,114,116,84,105,109,101,73,0,13,115,116,97,114,116,84,105,109,101,77,111,100,101,73,0,9,115,116,97,114,116,89,101,97,114,90,0,11,117,115,101,68,97,121,108,105,103,104,116,91,0,11,109,111,110,116,104,76,101,110,103,116,104,116,0,2,91,66,120,114,0,18,106,97,118,97,46,117,116,105,108,46,84,105,109,101,90,111,110,101,49,-77,-23,-11,119,68,-84,-95,2,0,1,76,0,2,73,68,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,120,112,116,0,12,65,115,105,97,47,66,97,110,103,107,111,107,0,54,-18,-128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-128,-123,-128,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,117,114,0,2,91,66,-84,-13,23,-8,6,8,84,-32,2,0,0,120,112,0,0,0,12,31,28,31,30,31,30,31,31,30,31,30,31,119,10,0,0,0,6,0,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,0,0,0,0,0,0,0,0,120,115,114,0,26,115,117,110,46,117,116,105,108,46,99,97,108,101,110,100,97,114,46,90,111,110,101,73,110,102,111,36,-47,-45,-50,0,29,113,-101,2,0,8,73,0,8,99,104,101,99,107,115,117,109,73,0,10,100,115,116,83,97,118,105,110,103,115,73,0,9,114,97,119,79,102,102,115,101,116,73,0,13,114,97,119,79,102,102,115,101,116,68,105,102,102,90,0,19,119,105,108,108,71,77,84,79,102,102,115,101,116,67,104,97,110,103,101,91,0,7,111,102,102,115,101,116,115,113,0,126,0,11,91,0,20,115,105,109,112,108,101,84,105,109,101,90,111,110,101,80,97,114,97,109,115,113,0,126,0,11,91,0,11,116,114,97,110,115,105,116,105,111,110,115,116,0,2,91,74,120,113,0,126,0,21,113,0,126,0,24,18,74,101,86,0,0,0,0,1,-128,-123,-128,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,1,-128,-123,-128,1,112,26,96,112,117,114,0,2,91,74,120,32,4,-75,18,-79,117,-109,2,0,0,120,112,0,0,0,3,-1,-33,-38,-32,29,-64,0,1,-1,-23,38,-6,85,90,0,0,0,30,-60,-106,-95,-88,0,0,120,-1,-1,-12,-30,-7,100,-84,0,115,113,0,126,0,9,1,0,0,0,1,1,1,0,0,0,1,0,0,0,2,0,0,0,1,0,0,1,68,-101,-65,2,-31,117,113,0,126,0,15,0,0,0,17,0,0,0,1,0,0,7,-34,0,0,0,2,0,0,0,10,0,0,0,2,0,0,0,7,0,0,0,66,0,0,0,6,0,0,0,1,0,0,0,1,0,0,0,3,0,0,0,15,0,0,0,53,0,0,0,10,0,0,1,-15,1,-128,-123,-128,0,0,0,0,117,113,0,126,0,17,0,0,0,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,115,113,0,126,0,19,113,0,126,0,24,0,54,-18,-128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-128,-123,-128,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,0,126,0,26,119,10,0,0,0,6,0,0,0,0,0,0,117,113,0,126,0,15,0,0,0,2,0,0,0,0,0,0,0,0,120,115,113,0,126,0,28,113,0,126,0,24,18,74,101,86,0,0,0,0,1,-128,-123,-128,0,0,0,0,0,113,0,126,0,31,112,113,0,126,0,33,120,-1,-1,-12,-30,-7,100,-84,0,120,112,112"/>
+                    </Property>
+                    <Property name="dch_enabled" type="boolean" value="false"/>
+                    <Property name="dch_locale" type="java.util.Locale" editor="datechooser.beans.editor.locale.LocaleEditor">
+                      <SerializedValue value="-84,-19,0,5,115,114,0,16,106,97,118,97,46,117,116,105,108,46,76,111,99,97,108,101,126,-8,17,96,-100,48,-7,-20,3,0,6,73,0,8,104,97,115,104,99,111,100,101,76,0,7,99,111,117,110,116,114,121,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,10,101,120,116,101,110,115,105,111,110,115,113,0,126,0,1,76,0,8,108,97,110,103,117,97,103,101,113,0,126,0,1,76,0,6,115,99,114,105,112,116,113,0,126,0,1,76,0,7,118,97,114,105,97,110,116,113,0,126,0,1,120,112,-1,-1,-1,-1,116,0,2,73,68,116,0,0,116,0,2,105,110,113,0,126,0,4,113,0,126,0,4,120"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="JButtonNonFormal">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Gambar/add.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="add"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="648" columnWidth="546" leftMargin="29" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e03927be-49a2-4a94-a4a3-4de57bdf819b">
+	<property name="ireport.zoom" value="1.3310000000000004"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="TanggalCuti" class="java.lang.String"/>
+	<parameter name="nama" class="java.lang.String"/>
+	<parameter name="jabatan" class="java.lang.String"/>
+	<parameter name="no_induk" class="java.lang.String"/>
+	<parameter name="periode_cuti" class="java.lang.String"/>
+	<parameter name="keperluan" class="java.lang.String"/>
+	<parameter name="hari_tanggal" class="java.lang.String"/>
+	<parameter name="hari_tanggal_masuk" class="java.lang.String"/>
+	<parameter name="jumlah_cuti" class="java.lang.String"/>
+	<parameter name="sisa_cuti" class="java.lang.String"/>
+	<parameter name="tlpn_dihu" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="53" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="a41c31ee-5655-4d50-9bc2-262f99525d5b" x="177" y="0" width="192" height="20"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Bismillahirahamannirrahim]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="36f9bb43-4345-4dd3-a0d2-25a3e6059793" x="177" y="20" width="192" height="20"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SURAT PERMOHONAN CUTI]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="48" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="2a8523e8-5eb1-486f-b504-188f74f35f0b" x="0" y="0" width="134" height="14"/>
+				<textElement/>
+				<text><![CDATA[Nama]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="afc5d9e8-3f2f-47b6-964a-9bcbe5f257fa" x="0" y="14" width="134" height="14"/>
+				<textElement/>
+				<text><![CDATA[Jabatan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ca2c4ef7-edc8-4bac-9aa3-6eaca5d57eb1" x="0" y="28" width="134" height="14"/>
+				<textElement/>
+				<text><![CDATA[No. Induk]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6e36436d-1f4d-4571-affd-ef98128a163a" x="134" y="0" width="4" height="14"/>
+				<textElement/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="50a26d10-af51-4eeb-bc7e-0e78756a4e13" x="134" y="14" width="4" height="14"/>
+				<textElement/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1479b283-d6a1-4c1d-9053-8b0faa83affd" x="134" y="28" width="4" height="14"/>
+				<textElement/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="95435242-37fd-4479-acd9-007859ee4ade" x="138" y="0" width="212" height="14"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="40382426-f721-43b7-ae63-4d899ead31f7" x="138" y="14" width="212" height="14"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{jabatan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d5579e84-d0a5-4dda-b4c1-c5fd4204a29e" x="138" y="28" width="212" height="14"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{no_induk}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="438" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="73baeb86-35df-4015-b717-5e6be7d3ef01" x="0" y="0" width="468" height="14"/>
+				<textElement/>
+				<text><![CDATA[Mengajukan permohonan cuti sebagai berikut :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e2b6492d-92d7-48a2-92d7-4d5c0d7bfcdf" x="0" y="14" width="134" height="14"/>
+				<textElement/>
+				<text><![CDATA[Periode Cuti]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="226d5231-1c16-4e46-bbbb-6bf20f662d1b" x="0" y="28" width="134" height="14"/>
+				<textElement/>
+				<text><![CDATA[Keperluan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c130f677-3555-4895-a958-33daaf84dc69" x="0" y="42" width="134" height="14"/>
+				<textElement/>
+				<text><![CDATA[Hari / Tanggal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4e80f731-d13c-4e8d-a2fc-d1c7dea6f733" x="0" y="56" width="134" height="14"/>
+				<textElement/>
+				<text><![CDATA[Hari / Tanggal Masuk]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="09a60895-4b56-441f-93bc-05d5b90464ff" x="0" y="70" width="134" height="14"/>
+				<textElement/>
+				<text><![CDATA[Jumlah Cuti]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="989eeeca-7447-4720-af93-b38047a5c187" x="0" y="98" width="134" height="14"/>
+				<textElement/>
+				<text><![CDATA[Tlpn. Yang dapat dihubungi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b5390870-d28e-4c66-a1d6-153a880bbded" x="0" y="126" width="40" height="14"/>
+				<textElement/>
+				<text><![CDATA[Bekasi, ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="650546c2-8143-4d90-afeb-95e491e2b910" x="0" y="183" width="100" height="14"/>
+				<textElement/>
+				<text><![CDATA[TTD Pemohon Cuti]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="8f18b491-b473-475d-b70a-3d7a8e016ce0" x="0" y="201" width="555" height="1"/>
+			</line>
+			<staticText>
+				<reportElement uuid="c74c14be-977b-4a3e-be7c-aa6924268229" x="350" y="214" width="100" height="14"/>
+				<textElement/>
+				<text><![CDATA[Di Terima Tanggal, ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d8ce7244-5abb-4dbd-ae9e-bc02bedb7c18" x="0" y="228" width="315" height="14"/>
+				<textElement/>
+				<text><![CDATA[Disetujui/DItolak *) dengan ketentuan sebagai berikut :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9f8743fb-8302-4f7b-aac5-52b39bb7ab06" x="0" y="242" width="315" height="14"/>
+				<textElement/>
+				<text><![CDATA[a.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b525f1a1-7dca-4011-a6e0-7b72aa2e8576" x="0" y="256" width="315" height="14"/>
+				<textElement/>
+				<text><![CDATA[b.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="569019db-20a1-4f5d-a023-e100fa53ebee" x="0" y="270" width="315" height="14"/>
+				<textElement/>
+				<text><![CDATA[c.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ffb380c0-989f-4bb9-a11c-aed22b8342ef" x="0" y="284" width="315" height="14"/>
+				<textElement/>
+				<text><![CDATA[d.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="dfc8767b-36f7-4f8a-bfe0-6dba009f2da7" x="0" y="298" width="315" height="14"/>
+				<textElement/>
+				<text><![CDATA[e.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2e600a08-4292-4c13-a185-34b261c31380" x="0" y="324" width="40" height="14"/>
+				<textElement/>
+				<text><![CDATA[Bekasi, ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f1a13417-8e53-4ce1-bbf5-492813b42779" x="0" y="381" width="100" height="14"/>
+				<textElement/>
+				<text><![CDATA[( Kabag / Kacab )]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f84e7d8e-53b8-4a76-be18-5e20e49636d0" x="0" y="395" width="100" height="14"/>
+				<textElement/>
+				<text><![CDATA[*) Coret salah satu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="de076c56-e9c1-4f94-ac0b-d13c3a011939" x="205" y="381" width="100" height="14"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[( Kabag Personalia )]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c2cbcd22-07b1-417f-b234-482a7697abfd" x="430" y="381" width="100" height="14"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[( Direktur )]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d1201285-a0fa-44a4-9373-18892101a26c" x="134" y="14" width="4" height="14"/>
+				<textElement/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="24e6cc41-b28a-465e-98b3-c5404361b69c" x="134" y="28" width="4" height="14"/>
+				<textElement/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f0692b00-06c7-45c5-9b9f-d00dd3cbd15d" x="134" y="42" width="4" height="14"/>
+				<textElement/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="290b8589-2926-46cd-a4dc-98a2011afba3" x="134" y="56" width="4" height="14"/>
+				<textElement/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a70885b4-ce2f-45a6-b24b-470fb22b5549" x="134" y="70" width="4" height="14"/>
+				<textElement/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9252b2e3-74ad-45fc-a910-db714310afef" x="134" y="98" width="4" height="14"/>
+				<textElement/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="ba1a4e77-e865-4d23-9f31-d47f99b2afe4" x="138" y="14" width="212" height="14"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{periode_cuti}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="e02ef876-72ec-49e5-a41f-c761d92b2928" x="138" y="28" width="212" height="14"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{keperluan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="356dd320-4b34-4fc9-836b-673224d137e1" x="138" y="42" width="212" height="14"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{hari_tanggal}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f1f4cf8f-2f77-4e94-b968-8e43f9e9db7a" x="138" y="56" width="212" height="14"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{hari_tanggal_masuk}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f3b2173b-cdd8-425f-a8db-992e4b4d7b9a" x="138" y="70" width="212" height="14"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{jumlah_cuti}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="d1f5268a-ce5a-4d87-b650-35674d438509" x="0" y="84" width="134" height="14"/>
+				<textElement/>
+				<text><![CDATA[Sisa Cuti]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4688d719-710c-4b82-87a6-5749a489e541" x="134" y="84" width="4" height="14"/>
+				<textElement/>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="48538d96-0c00-4644-93d6-d7889265a1d7" x="138" y="84" width="212" height="14"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{sisa_cuti}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5cd506c3-aa6d-47da-bb77-92735c5c7c3a" x="138" y="98" width="212" height="14"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{tlpn_dihu}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd MMMMM yyyy">
+				<reportElement uuid="f23773e3-45d8-4eb1-9913-5a4c25d45a7f" x="40" y="126" width="100" height="14"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
