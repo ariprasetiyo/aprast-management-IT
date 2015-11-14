@@ -16,7 +16,7 @@ public class DB_MYSQL {
         String IpServer ;//= "localhost";
         String Database ;//= "db_it_management";
         String User    ; //= "root";
-        String Password ;//= "C0b4dib4c4";
+        String Password ;//= "";
         //String Password = "";
         public Connection koneksi = null;
         
